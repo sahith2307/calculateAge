@@ -1,0 +1,79 @@
+/* Write your code here. */
+.bg-cont {
+  background-image: linear-gradient(to right, #43cbff 0%, #9708cc 100%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 90%;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.head {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.inputError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputField {
+  background-color: #ffffff;
+  font-size: 14px;
+  width: 50%;
+  border-radius: 4px;
+  padding: 15px;
+  outline: none;
+}
+.errorMessage {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 50%;
+  margin: 10px;
+}
+.age {
+  color: #8e1dd2;
+  margin: 25px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+.butn-cont {
+  display: flex;
+  justify-content: center;
+}
+.butn {
+  color: #ffffff;
+  background-image: linear-gradient(to right, #43cbff 0%, #9708cc 100%);
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  width: 140px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 15px;
+  padding: 15px;
+}
+.image {
+  width: 100%;
+}
